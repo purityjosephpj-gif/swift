@@ -23,7 +23,7 @@ const benefits = [
   {
     icon: <MapPin className="w-8 h-8" />,
     title: 'Local & Trusted',
-    description: 'Serving Kerugoya with care. We know the area and understand local needs.',
+    description: 'Serving Nairobi, Kitengela, and surrounding areas with care. We know the region and understand local needs.',
     color: 'purple'
   },
   {
@@ -55,10 +55,10 @@ const WhyChooseUs: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Why Choose Swift Assist?</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Why Choose Urban Assist?</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             We're more than just an errand service – we're your trusted partner in making life easier. 
-            Here's what sets us apart in Kerugoya.
+            Here's what sets us apart in Nairobi, Kitengela, and surrounding areas.
           </p>
         </div>
 
@@ -111,13 +111,13 @@ const WhyChooseUs: React.FC = () => {
             <div className="max-w-4xl mx-auto">
               <div className="text-6xl font-bold text-blue-300 mb-4">"</div>
               <p className="text-xl mb-6 leading-relaxed">
-                Swift Assist has been a game-changer for our family. Between work and kids, 
+                Urban Assist has been a game-changer for our family. Between work and kids, 
                 we barely had time for errands. Now we just call them, and everything gets done perfectly. 
                 They're reliable, affordable, and always professional.
               </p>
               <div className="text-blue-200">
                 <div className="font-semibold">Sarah M.</div>
-                <div className="text-sm">Working Mother, Kerugoya</div>
+                <div className="text-sm">Working Mother, Nairobi</div>
               </div>
             </div>
           </div>

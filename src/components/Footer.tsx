@@ -10,26 +10,26 @@ const Footer: React.FC = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company info */}
           <div>
-            <div className="text-2xl font-bold text-blue-400 mb-4">Swift Assist</div>
+            <div className="text-2xl font-bold text-blue-400 mb-4">Urban Assist</div>
             <p className="text-gray-300 mb-4 leading-relaxed">
-              Kerugoya's trusted errand-running and personal assistance service. 
-              Your errands, done fast.
+              Nairobi & Kitengela's trusted errand-running and personal assistance service. 
+              We run, you relax.
             </p>
             <div className="flex space-x-4">
               <a 
-                href="https://wa.me/254111679286" 
+                href="https://wa.me/254714872832" 
                 className="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center hover:bg-green-700 transition-colors"
               >
                 <MessageCircle className="w-5 h-5" />
               </a>
               <a 
-                href="tel:0111679286" 
+                href="tel:0714872832" 
                 className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors"
               >
                 <Phone className="w-5 h-5" />
               </a>
               <a 
-                href="mailto:swiftassistkerugoya@gmail.com" 
+                href="mailto:urbanassistkenya@gmail.com" 
                 className="w-10 h-10 bg-orange-600 rounded-full flex items-center justify-center hover:bg-orange-700 transition-colors"
               >
                 <Mail className="w-5 h-5" />
@@ -67,19 +67,19 @@ const Footer: React.FC = () => {
               <div className="flex items-start space-x-3">
                 <Phone className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" />
                 <div>
+                  <div className="text-gray-300">0714872832</div>
                   <div className="text-gray-300">0111679286</div>
-                  <div className="text-gray-300">0717562660</div>
                 </div>
               </div>
               
               <div className="flex items-start space-x-3">
                 <Mail className="w-5 h-5 text-orange-400 flex-shrink-0 mt-0.5" />
-                <div className="text-gray-300">swiftassistkerugoya@gmail.com</div>
+                <div className="text-gray-300">urbanassistkenya@gmail.com</div>
               </div>
               
               <div className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-green-400 flex-shrink-0 mt-0.5" />
-                <div className="text-gray-300">Kerugoya, Kenya</div>
+                <div className="text-gray-300">Nairobi & Kitengela, Kenya</div>
               </div>
               
               <div className="flex items-start space-x-3">
@@ -98,10 +98,10 @@ const Footer: React.FC = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm">
-              © {currentYear} Swift Assist Kerugoya. All rights reserved.
+              © {currentYear} Urban Assist Kenya. All rights reserved.
             </div>
             <div className="text-gray-400 text-sm mt-4 md:mt-0">
-              Built with care for the people of Kerugoya
+              Built with care for the people of Nairobi & Kitengela
             </div>
           </div>
         </div>

@@ -187,18 +187,18 @@ const Services: React.FC = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
+                href="tel:0714872832" 
+                className="inline-flex items-center justify-center bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
+              >
+                <Phone className="w-5 h-5 mr-2" />
+                0714872832
+              </a>
+              <a 
                 href="tel:0111679286" 
                 className="inline-flex items-center justify-center bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
               >
                 <Phone className="w-5 h-5 mr-2" />
                 0111679286
-              </a>
-              <a 
-                href="tel:0717562660" 
-                className="inline-flex items-center justify-center bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
-              >
-                <Phone className="w-5 h-5 mr-2" />
-                0717562660
               </a>
             </div>
           </div>

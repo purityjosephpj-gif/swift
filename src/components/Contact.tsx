@@ -21,6 +21,7 @@ const Contact: React.FC = () => {
     e.preventDefault();
     // Create WhatsApp message
     const message = `Hello Swift Assist! I'm interested in your services.
+    const message = `Hello Urban Assist! I'm interested in your services.
 
 Name: ${formData.name}
 Phone: ${formData.phone}
@@ -29,7 +30,7 @@ Service: ${formData.service}
 Message: ${formData.message}`;
 
     const encodedMessage = encodeURIComponent(message);
-    window.open(`https://wa.me/254111679286?text=${encodedMessage}`, '_blank');
+    window.open(`https://wa.me/254714872832?text=${encodedMessage}`, '_blank');
   };
 
   return (
@@ -57,11 +58,11 @@ Message: ${formData.message}`;
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">Phone Numbers</h4>
                   <div className="space-y-1">
+                    <a href="tel:0714872832" className="block text-gray-600 hover:text-blue-600 transition-colors">
+                      0714872832
+                    </a>
                     <a href="tel:0111679286" className="block text-gray-600 hover:text-blue-600 transition-colors">
                       0111679286
-                    </a>
-                    <a href="tel:0717562660" className="block text-gray-600 hover:text-blue-600 transition-colors">
-                      0717562660
                     </a>
                   </div>
                 </div>
@@ -73,7 +74,7 @@ Message: ${formData.message}`;
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">WhatsApp</h4>
-                  <a href="https://wa.me/254111679286" className="text-gray-600 hover:text-green-600 transition-colors">
+                  <a href="https://wa.me/254714872832" className="text-gray-600 hover:text-green-600 transition-colors">
                     Chat with us on WhatsApp
                   </a>
                 </div>
@@ -85,8 +86,8 @@ Message: ${formData.message}`;
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">Email</h4>
-                  <a href="mailto:swiftassistkerugoya@gmail.com" className="text-gray-600 hover:text-orange-600 transition-colors">
-                    swiftassistkerugoya@gmail.com
+                  <a href="mailto:urbanassistkenya@gmail.com" className="text-gray-600 hover:text-orange-600 transition-colors">
+                    urbanassistkenya@gmail.com
                   </a>
                 </div>
               </div>
@@ -97,7 +98,7 @@ Message: ${formData.message}`;
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">Location</h4>
-                  <p className="text-gray-600">Kerugoya, Kenya</p>
+                  <p className="text-gray-600">Nairobi & Kitengela, Kenya</p>
                 </div>
               </div>
 
@@ -119,14 +120,14 @@ Message: ${formData.message}`;
             {/* Quick action buttons */}
             <div className="mt-8 space-y-4">
               <a 
-                href="tel:0111679286" 
+                href="tel:0714872832" 
                 className="flex items-center justify-center w-full bg-blue-600 text-white px-6 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
               >
                 <Phone className="w-5 h-5 mr-2" />
-                Call Now - 0111679286
+                Call Now - 0714872832
               </a>
               <a 
-                href="https://wa.me/254111679286" 
+                href="https://wa.me/254714872832" 
                 className="flex items-center justify-center w-full bg-green-600 text-white px-6 py-4 rounded-lg font-semibold hover:bg-green-700 transition-colors"
               >
                 <MessageCircle className="w-5 h-5 mr-2" />

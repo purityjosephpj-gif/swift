@@ -10,15 +10,15 @@ const Hero: React.FC = () => {
           <div className="text-center lg:text-left">
             <div className="mb-6">
               <span className="inline-block bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                🌍 Kerugoya's Trusted Errand Service
+                🌍 Nairobi & Kitengela's Trusted Errand Service
               </span>
               <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
-                Your errands,{' '}
-                <span className="text-blue-600">done fast</span>
+                We run,{' '}
+                <span className="text-blue-600">you relax</span>
               </h1>
               <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-                Swift Assist is your trusted partner for all everyday errands. Save time, reduce stress, 
-                and enjoy convenience right at your doorstep in Kerugoya.
+                Urban Assist is your trusted partner for all everyday errands. Save time, reduce stress, 
+                and enjoy convenience right at your doorstep in Nairobi, Kitengela, and surrounding areas.
               </p>
             </div>
 
@@ -45,14 +45,14 @@ const Hero: React.FC = () => {
             {/* CTA buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
               <a 
-                href="tel:0111679286" 
+                href="tel:0714872832" 
                 className="inline-flex items-center justify-center bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-all duration-300 shadow-lg hover:shadow-xl"
               >
                 <Phone className="w-5 h-5 mr-2" />
                 Call Now
               </a>
               <a 
-                href="https://wa.me/254111679286" 
+                href="https://wa.me/254714872832" 
                 className="inline-flex items-center justify-center bg-green-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-green-700 transition-all duration-300 shadow-lg hover:shadow-xl"
               >
                 <MessageCircle className="w-5 h-5 mr-2" />
