@@ -21,7 +21,7 @@ const Contact: React.FC = () => {
     e.preventDefault();
     // Create WhatsApp message
     const message = `Hello Swift Assist! I'm interested in your services.
-    const message = `Hello Urban Assist! I'm interested in your services.
+    const message = \`Hello Urban Assist! I'm interested in your services.
 
 Name: ${formData.name}
 Phone: ${formData.phone}
